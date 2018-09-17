@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+	margin: 0;
+}
+
+#navbar {
+	display: inline-flex;
+	list-style: none;
+	padding-top: 11vh;
+	float: right;
+	margin-top: 0;
+}
+
+#logo {
+	max-height: 25vh;
+	max-width: 25vw;
+	margin: 0 auto;
+	padding-left: 10vw;
+}
+
+ul {
+	padding-right: 10vw;
+}
+
+li {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	padding: 1vh 2.5vw;
+	float: right;
+	margin: 0 5px;
+
+}
+
+li:not(.active):hover {
+	background-color: #191970;
+	color: white;
+	border-radius: 5px;	
+	transition: 0.4s;
+	opacity: 0.8;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    cursor: pointer;
+}
+
+.active {
+	background-color: #191970;
+	color: white;
+	border-radius: 5px;	
+}
+
+hr {
+	margin: 0;
+	width: 80%;
+	margin: 0 auto;
+	opacity: 0.5;
+}
+
+h2 {
+	padding-top: 10px;
+	text-align: center;
+	font-family: "Nunito", sans-serif;
+}
+
+span {
+	color: #191970;	
+}
+
+.bottomHr {
+	opacity: 0.3;
+	margin: 30px auto;
+}
+
+.heroHome {
+	margin: 0 auto;
+	width: 70vw;
+	height: 50vh;
+}
+
+.heroDo {
+	margin: 0 auto;
+	width: 70vw;
+	height: 50vh;
+	object-fit: cover;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
+	margin:	0 auto;
+	width: 70%;
+	line-height: 40px; 
+
+}
+
+.textPicSplit {
+	float: left;
+	width: 100%;
+	padding: 5vh 0;
+
+}
+
+.textLeft {
+	float: left;
+	margin-left: 15vw;
+	width: 30vw;
+}
+
+.picRight {
+	float: right;
+	margin-right: 15vw;
+	padding-top: 5vh;
+	width: 30vw;
+	/*max-height: 70vh;*/
+}
+
+.picLeft {
+	float: left;
+	margin-left: 15vw;
+	width: 30vw;
+	padding-top: 5vh;
+}
+
+.textRight {
+	float: right;
+	margin-right: 15vw;
+	width: 30vw;
+	max-height: 70vh;
+}
+
+#footLine {
+	margin-bottom: 0;
+}
+
+#footer {
+	width: 100wh;
+	padding-top: 15vh;
+	background-color: lightgrey;
+	border: 1px solid lightgrey;
+}
+
+#footerContact {
+	color: white;
+
+}
+
+#tag {
+	color: white;
+	float: right;
+}
+
+
+
+
+
+
